@@ -17,7 +17,7 @@ export default function AboutPage() {
           className="text-center"
         >
           <h1 className="text-5xl font-bold text-gray-900 mb-4">About Us</h1>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-ray-700 max-w-3xl mx-auto leading-relaxed">
             Panditha Radhya Jewellers carries forward a <span className={highlight}>heritage</span> of over 150 years, 
             originally founded as <span className={highlight}>Bangaram Virupakshaiah Swamy</span> in Main Bazaar, Uravakonda. 
             Guided by <span className={highlight}>visionary craftsmanship</span>, the brand has flourished across generations, earning trust through <span className={highlight}>purity, artistry, and timeless tradition</span>.
