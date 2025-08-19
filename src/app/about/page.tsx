@@ -14,8 +14,28 @@ export default function AboutPage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center"
-      
+          className="text-center space-y-6"
+        >
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+            About Us
+          </h1>
+          <p className="text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            Panditha Radhya Jewellers carries within it a{" "}
+            <span className={highlight}>heritage</span> that began more than{" "}
+            <span className={highlight}>150 years ago</span> in the heart of{" "}
+            <span className={highlight}>Uravakonda’s Main Bazaar</span>. What
+            started as a humble <span className={highlight}>jewellery house</span>{" "}
+            soon became a trusted part of families’ most treasured moments.
+            Guided by a vision of <span className={highlight}>purity</span> and{" "}
+            <span className={highlight}>artistry</span>, the{" "}
+            <span className={highlight}>legacy</span> has been carefully preserved
+            and passed down through generations. Each creation tells a story of{" "}
+            <span className={highlight}>tradition</span> blended with{" "}
+            <span className={highlight}>timeless elegance</span>, making the
+            brand not just a jeweller, but a companion in life’s most cherished
+            celebrations.
+          </p>
+        </motion.div>
 
         {/* Legacy & Reach */}
         <motion.div
@@ -27,12 +47,19 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">Our Legacy</h2>
           <p className="text-gray-700 leading-relaxed">
-            Today, the fourth generation of the <span className={highlight}>Kalmat family</span> continues this proud legacy. 
-            Our presence extends across Rayalaseema, Bellary, Raichur, and Vijayanagara (Hospet), 
-            serving both <span className={highlight}>heritage lovers</span> and <span className={highlight}>modern trend-seekers</span>.
+            Today, the fourth generation of the{" "}
+            <span className={highlight}>Kalmat family</span> continues this proud
+            legacy. Our presence extends across Rayalaseema, Bellary, Raichur,
+            and Vijayanagara (Hospet), serving both{" "}
+            <span className={highlight}>heritage lovers</span> and{" "}
+            <span className={highlight}>modern trend-seekers</span>.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Our collections strike a perfect balance of <span className={highlight}>traditional craftsmanship</span> and <span className={highlight}>contemporary elegance</span>, from intricately designed bridal sets to sleek, stylish pieces for the Gen Z audience.
+            Our collections strike a perfect balance of{" "}
+            <span className={highlight}>traditional craftsmanship</span> and{" "}
+            <span className={highlight}>contemporary elegance</span>, from
+            intricately designed bridal sets to sleek, stylish pieces for the Gen
+            Z audience.
           </p>
         </motion.div>
 
@@ -44,13 +71,20 @@ export default function AboutPage() {
           transition={{ duration: 0.8 }}
           className="bg-gray-50 p-8 rounded-2xl shadow-md border border-gray-200 space-y-4"
         >
-          <h2 className="text-3xl font-semibold text-gray-900 mb-4">Custom-Made Jewellery</h2>
+          <h2 className="text-3xl font-semibold text-gray-900 mb-4">
+            Custom-Made Jewellery
+          </h2>
           <p className="text-gray-700 leading-relaxed">
-            Our <span className={highlight}>custom-made jewellery</span> service allows clients to bring their visions to life. 
-            Choose from our curated catalogues or create unique designs with guidance from our expert craftsmen.
+            Our <span className={highlight}>custom-made jewellery</span> service
+            allows clients to bring their visions to life. Choose from our
+            curated catalogues or create unique designs with guidance from our
+            expert craftsmen.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Every customer is valued—whether it’s a family celebrating age-old traditions, or a modern client seeking <span className={highlight}>fashionable, elegant designs</span> for their special moments.
+            Every customer is valued—whether it’s a family celebrating age-old
+            traditions, or a modern client seeking{" "}
+            <span className={highlight}>fashionable, elegant designs</span> for
+            their special moments.
           </p>
         </motion.div>
 
@@ -64,12 +98,15 @@ export default function AboutPage() {
         >
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">Our Philosophy</h2>
           <p className="text-gray-700 leading-relaxed">
-            Jewellery is more than ornamentation—it’s a <span className={highlight}>legacy, a memory, and a story</span>. 
-            From weddings to personal milestones, we create pieces to be cherished for generations.
+            Jewellery is more than ornamentation—it’s a{" "}
+            <span className={highlight}>legacy, a memory, and a story</span>. From
+            weddings to personal milestones, we create pieces to be cherished for
+            generations.
           </p>
         </motion.div>
       </div>
     </section>
   );
 }
+
 
